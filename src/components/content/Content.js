@@ -13,8 +13,11 @@ export default class Content extends Component {
 
     return (
       <div>
+
+
+        <Carousel1 />
+        <hr size="1"></hr>
         <div className="about">
-          <Carousel1 />
           <Section
             title="About"
             subtitle={<About />}
@@ -22,6 +25,8 @@ export default class Content extends Component {
             id="about"
           />
         </div>
+        <hr size="1"></hr>
+
         <Section
           title="Services"
           subtitle={<Services />}

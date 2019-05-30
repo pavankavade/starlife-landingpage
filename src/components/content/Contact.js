@@ -9,7 +9,7 @@ export default function Contact() {
 
           <div className="col-sm-4 ">
             <h2>Somnath Nanware</h2>
-            <p>1st floor, ""Apartment, Sangli-Miraj Road, Miraj - 416410, Maharashtra, India</p>
+            <p>1st floor, "Landmark" Apartment, near Sevasadan hospital, Sangli-Miraj Road, Miraj - 416410, Maharashtra, India</p>
 
           </div>
           <div className="col-sm-4">
