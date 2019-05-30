@@ -1,5 +1,9 @@
-$color-deep-blue: #1367e4;
-
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #f8f8f8;
+}
 html,
 body {
   font-family: sans-serif;
@@ -41,7 +45,6 @@ body {
   top: 0;
   width: 100%;
   z-index: 1;
-
   
 }
 /*
@@ -69,6 +72,7 @@ body {
   display: inline-block;
   text-align: center;
   width: 100%;
+  background-color: #f8f8f8;
 }
 a {
   color: #454545;
@@ -100,4 +104,25 @@ p {
   font-size: 20px;
   line-height: 1.95;
   text-align: justify;
+}
+/*
+.head {
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(./img/bg.JPG) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+*/
+.title{
+  color: #333333;
+}
+.sub{
+  color: #333333;
+}
+
+.carousel{
+  width: 10px;
 }

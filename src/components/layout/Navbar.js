@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import AdSense from 'react-adsense';
 export default class Navbar extends Component {
 
   static defaultProps = {
@@ -56,7 +58,15 @@ export default class Navbar extends Component {
       const borderBottomWidth = (props.opacity === 1) ? props.borderBottomWidth : 0;
 
       return (
+
         <div className="navbar navbar-default navbar-static-top" role="navigation" style={{ opacity, borderBottomWidth }}>
+          <AdSense.Google
+            client='ca-pub-4472628779003865'
+            slot='5558303738'
+            style={{ display: 'block' }}
+            layout='in-article'
+            format='fluid'
+          />
           <div className="container">
             <div className="navbar-header">
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-id">
@@ -169,58 +179,10 @@ export default class Navbar extends Component {
       </div>
     );
 
-    const Content = () => (
-      <div className="content">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h1>Scroll Me</h1>
-              <p>
-                Phasellus scelerisque ante et odio egestas imperdiet.
-                Mauris enim diam, accumsan bibendum nunc dictum, suscipit auctor quam.
-                Quisque rhoncus arcu justo, non suscipit nunc condimentum vel.
-                Nunc non viverra est, ac ultricies leo.
-                Suspendisse dignissim eget sem a aliquet.
-                Suspendisse vel dui et turpis mollis volutpat ut vitae odio.
-                Aliquam dictum feugiat.Phasellus scelerisque ante et odio egestas imperdiet.
-                Mauris enim diam, accumsan bibendum nunc dictum, suscipit auctor quam.
-                Quisque rhoncus arcu justo, non suscipit nunc condimentum vel.
-                Nunc non viverra est, ac ultricies leo.
-                Suspendisse dignissim eget sem a aliquet.
-                Suspendisse vel dui et turpis mollis volutpat ut vitae odio.
-                Aliquam dictum feugiat.Phasellus scelerisque ante et odio egestas imperdiet.
-                Mauris enim diam, accumsan bibendum nunc dictum, suscipit auctor quam.
-                Quisque rhoncus arcu justo, non suscipit nunc condimentum vel.
-                Nunc non viverra est, ac ultricies leo.
-                Suspendisse dignissim eget sem a aliquet.
-                Suspendisse vel dui et turpis mollis volutpat ut vitae odio.
-                Aliquam dictum feugiat.Phasellus scelerisque ante et odio egestas imperdiet.
-                Mauris enim diam, accumsan bibendum nunc dictum, suscipit auctor quam.
-                Quisque rhoncus arcu justo, non suscipit nunc condimentum vel.
-                Nunc non viverra est, ac ultricies leo.
-                Suspendisse dignissim eget sem a aliquet.
-                Suspendisse vel dui et turpis mollis volutpat ut vitae odio.
-                Aliquam dictum feugiat.Phasellus scelerisque ante et odio egestas imperdiet.
-                Mauris enim diam, accumsan bibendum nunc dictum, suscipit auctor quam.
-                Quisque rhoncus arcu justo, non suscipit nunc condimentum vel.
-                Nunc non viverra est, ac ultricies leo.
-                Suspendisse dignissim eget sem a aliquet.
-                Suspendisse vel dui et turpis mollis volutpat ut vitae odio.
-                Aliquam dictum feugiat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-
-
-
     return (
       <div>
         <Nav opacity={this.state.navOpacity} borderBottomWidth={this.props.bottomBorderWidth} />
         <Header height={this.props.headerHeight} borderBottomWidth={this.props.bottomBorderWidth} />
-
       </div >
     )
   }
