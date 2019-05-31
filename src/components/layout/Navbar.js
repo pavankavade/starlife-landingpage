@@ -60,13 +60,7 @@ export default class Navbar extends Component {
       return (
 
         <div className="navbar navbar-default navbar-static-top" role="navigation" style={{ opacity, borderBottomWidth }}>
-          <AdSense.Google
-            client='ca-pub-4472628779003865'
-            slot='5558303738'
-            style={{ display: 'block' }}
-            layout='in-article'
-            format='fluid'
-          />
+
           <div className="container">
             <div className="navbar-header">
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-id">
