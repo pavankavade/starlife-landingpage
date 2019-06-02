@@ -129,7 +129,7 @@ export default class Navbar extends Component {
     const Header = (props) => (
       <div className="header" style={{ height: props.height, borderBottomWidth: props.borderBottomWidth }}>
         <div className="name">StarLife Furnitures</div>
-        <div className="description">Kitchen Trolly and Stainless Steel Rail Work</div>
+        <div className="description">Kitchen Trolly and Stainless Steel Rails Work</div>
         <div className="links">
 
           <Link

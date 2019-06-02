@@ -43,6 +43,45 @@ export default function Services() {
       thumbnailHeight: 320
     }]
 
+  const furni =
+    [{
+      src: "https://i.ibb.co/rkhQZps/FB-IMG-1547220888910.jpg",
+      thumbnail: "https://i.ibb.co/rkhQZps/FB-IMG-1547220888910.jpg",
+      thumbnailWidth: 600,
+      thumbnailHeight: 400,
+    },
+    {
+      src: "https://i.ibb.co/B3Jydn2/FB-IMG-1548345315430.jpg",
+      thumbnail: "https://i.ibb.co/B3Jydn2/FB-IMG-1548345315430.jpg",
+      thumbnailWidth: 600,
+      thumbnailHeight: 400,
+    },
+
+    {
+      src: "https://i.ibb.co/923XKbk/Photo0092-001.jpg",
+      thumbnail: "https://i.ibb.co/923XKbk/Photo0092-001.jpg",
+      thumbnailWidth: 600,
+      thumbnailHeight: 400
+    },
+    {
+      src: "https://i.ibb.co/3dxfG7w/10304636-508364109297072-6763317863242665084-n.jpg",
+      thumbnail: "https://i.ibb.co/3dxfG7w/10304636-508364109297072-6763317863242665084-n.jpg",
+      thumbnailWidth: 600,
+      thumbnailHeight: 400
+    },
+    {
+      src: "https://i.ibb.co/kcBFyw8/10325399-496986123768204-3296584078294700935-n.jpg",
+      thumbnail: "https://i.ibb.co/kcBFyw8/10325399-496986123768204-3296584078294700935-n.jpg",
+      thumbnailWidth: 420,
+      thumbnailHeight: 320
+    },
+    {
+      src: "https://i.ibb.co/k0ZkkFZ/12011315-738266872973460-158228140708143594-n.jpg",
+      thumbnail: "https://i.ibb.co/k0ZkkFZ/12011315-738266872973460-158228140708143594-n.jpg",
+      thumbnailWidth: 420,
+      thumbnailHeight: 320
+    }]
+
   const railing =
     [{
       src: "https://i.ibb.co/PcdV236/2012-10-20-1.jpg",
@@ -164,7 +203,7 @@ export default function Services() {
             overflow: "auto"
           }}>
             <Gallery
-              images={kitchen} enableImageSelection={false} />
+              images={furni} enableImageSelection={false} />
           </div>
         </div>
       </div >

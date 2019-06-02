@@ -17,7 +17,7 @@ export default function Contact() {
           </div>
           <div className="col-sm-4">
             <h2>
-              <i class="fa fa-phone" aria-hidden="true"> 1234567890</i>
+              <i class="fa fa-phone" aria-hidden="true"> 9561877709</i>
               <br /><br />
               <i class="fas fa-envelope"> skn1371@gmail.com</i>
             </h2>
